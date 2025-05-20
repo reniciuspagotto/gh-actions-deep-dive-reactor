@@ -1,0 +1,39 @@
+name: Build and Test .NET 9 App
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build the project
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run tests
+        run: dotnet test --no-build --verbosity normal
+        
+      - name: Publish the project
+        run: dotnet publish --configuration Release --output ./publish
+        
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: published-artifacts
