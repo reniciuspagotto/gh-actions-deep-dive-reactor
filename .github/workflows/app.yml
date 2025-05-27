@@ -34,7 +34,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore
         
       - name: Publish the project
-        if: ${ env.SHOULD_PUBLISH }
+        if: ${{ env.SHOULD_PUBLISH }}
         run: dotnet publish --configuration Release --no-build --output ./publish
         
       # - name: Upload build artifacts
