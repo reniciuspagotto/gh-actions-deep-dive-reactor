@@ -1,4 +1,4 @@
-name: Build and Test .NET 9 App
+name: Build and Test .NET 9 Application
 
 on:
   push:
