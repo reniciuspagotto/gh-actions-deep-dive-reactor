@@ -34,7 +34,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore
         
       - name: Publish the project
-        if: env.SHOULD_PUBLISH == 'true'
+        if: ${ env.SHOULD_PUBLISH }
         run: dotnet publish --configuration Release --no-build --output ./publish
         
       # - name: Upload build artifacts
@@ -60,4 +60,14 @@ jobs:
 
       - name: Run tests
         run: dotnet test
-          
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build, test]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy application
+        run: |
+          echo "Deploying application..."          
