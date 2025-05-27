@@ -1,0 +1,15 @@
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/bin/Debug/net9.0/MySolution.Console
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/bin/Debug/net9.0/MySolution.Console.deps.json
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/bin/Debug/net9.0/MySolution.Console.runtimeconfig.json
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/bin/Debug/net9.0/MySolution.Console.dll
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/bin/Debug/net9.0/MySolution.Console.pdb
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.AssemblyInfoInputs.cache
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.AssemblyInfo.cs
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.csproj.CoreCompileInputs.cache
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.sourcelink.json
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.dll
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/refint/MySolution.Console.dll
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.pdb
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/MySolution.Console.genruntimeconfig.cache
+/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/Debug/net9.0/ref/MySolution.Console.dll
