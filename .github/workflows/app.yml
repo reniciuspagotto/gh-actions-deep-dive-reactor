@@ -9,10 +9,13 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  SHOULD_PUBLISH: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/feature' }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -31,6 +34,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore
         
       - name: Publish the project
+        if: env.SHOULD_PUBLISH == 'true'
         run: dotnet publish --configuration Release --no-build --output ./publish
         
       # - name: Upload build artifacts
