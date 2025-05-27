@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  SHOULD_PUBLISH: false
+  SHOULD_PUBLISH: true
 
 jobs:
   build:
