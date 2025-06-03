@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/reniciuspagotto/Development/MySolution/MySolution.Console/MySolution.Console.csproj": {}
+    "/Users/reniciuspagotto/Development/gh-actions-deep-dive-reactor/MySolution.Console/MySolution.Console.csproj": {}
   },
   "projects": {
-    "/Users/reniciuspagotto/Development/MySolution/MySolution.Console/MySolution.Console.csproj": {
+    "/Users/reniciuspagotto/Development/gh-actions-deep-dive-reactor/MySolution.Console/MySolution.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/reniciuspagotto/Development/MySolution/MySolution.Console/MySolution.Console.csproj",
+        "projectUniqueName": "/Users/reniciuspagotto/Development/gh-actions-deep-dive-reactor/MySolution.Console/MySolution.Console.csproj",
         "projectName": "MySolution.Console",
-        "projectPath": "/Users/reniciuspagotto/Development/MySolution/MySolution.Console/MySolution.Console.csproj",
+        "projectPath": "/Users/reniciuspagotto/Development/gh-actions-deep-dive-reactor/MySolution.Console/MySolution.Console.csproj",
         "packagesPath": "/Users/reniciuspagotto/.nuget/packages/",
-        "outputPath": "/Users/reniciuspagotto/Development/MySolution/MySolution.Console/obj/",
+        "outputPath": "/Users/reniciuspagotto/Development/gh-actions-deep-dive-reactor/MySolution.Console/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/reniciuspagotto/.nuget/NuGet/NuGet.Config"

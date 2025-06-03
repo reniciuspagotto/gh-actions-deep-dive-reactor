@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4x3T5f3OF5o=",
+  "dgSpecHash": "4ABOexJ93Xs=",
   "success": true,
-  "projectFilePath": "/Users/reniciuspagotto/Development/MySolution/MySolution.Tests/MySolution.Tests.csproj",
+  "projectFilePath": "/Users/reniciuspagotto/Development/gh-actions-deep-dive-reactor/MySolution.Tests/MySolution.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/reniciuspagotto/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/reniciuspagotto/.nuget/packages/bogus/35.6.1/bogus.35.6.1.nupkg.sha512",
