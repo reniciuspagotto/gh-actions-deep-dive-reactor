@@ -77,7 +77,7 @@ jobs:
           echo "Deploying application..."
 
   deploy-reusable-local:
-    name: Deploy Reusable Workflow
+    name: Deploy Reusable Workflow Local
     needs: [build, test]
     uses: ./.github/workflows/deploy-app.yml
     with:
@@ -85,7 +85,7 @@ jobs:
     secrets: inherit
 
   deploy-reusable-remote:
-    name: Deploy Reusable Workflow
+    name: Deploy Reusable Workflow Remote
     needs: [build, test]
     uses: reniciuspagotto/gh-actions-reusable-components/.github/workflows/deploy.yml@main
     with:
