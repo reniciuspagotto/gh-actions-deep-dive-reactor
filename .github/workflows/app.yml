@@ -20,6 +20,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Checkout code | Composite Actions
+        uses: reniciuspagotto/gh-actions-reusable-components/.github/composite-actions/checkout@main
+        with:
+          gh-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
