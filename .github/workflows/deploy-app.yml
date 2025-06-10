@@ -13,10 +13,6 @@ on:
         description: 'Message for the deployment'
         required: true
         type: string
-    secrets:
-      gh-token:
-        description: 'GitHub token to use for authentication'
-        required: true
 
 jobs:
   deploy:

@@ -82,5 +82,4 @@ jobs:
     uses: ./.github/workflows/deploy-app.yml
     with:
       message: "Deployment triggered by workflow run"
-    secrets:
-      gh-token: ${{ secrets.GITHUB_TOKEN }}
+    secrets: inherit
