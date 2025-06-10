@@ -25,6 +25,9 @@ jobs:
         with:
           gh-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Run Script
+        uses: reniciuspagotto/gh-actions-reusable-components/.github/composite-actions/script-python@main
+
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
