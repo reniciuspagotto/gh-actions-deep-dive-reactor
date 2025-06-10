@@ -76,10 +76,19 @@ jobs:
         run: |
           echo "Deploying application..."
 
-  deploy-reusable:
+  deploy-reusable-local:
     name: Deploy Reusable Workflow
     needs: [build, test]
     uses: ./.github/workflows/deploy-app.yml
     with:
       message: "Deployment triggered by workflow run"
     secrets: inherit
+
+  deploy-reusable-remote:
+    name: Deploy Reusable Workflow
+    needs: [build, test]
+    uses: reniciuspagotto/gh-actions-reusable-components/.github/workflows/deploy.yml@main
+    with:
+      message: "Deployment triggered by workflow run"
+    secrets: 
+      gh-token: ${{ secrets.GITHUB_TOKEN }}
