@@ -74,4 +74,13 @@ jobs:
 
       - name: Deploy application
         run: |
-          echo "Deploying application..."          
+          echo "Deploying application..."
+
+  deploy-reusable:
+    name: Deploy Reusable Workflow
+    needs: [build, test]
+    uses: ./.github/workflows/deploy-app.yml
+    with:
+      message: "Deployment triggered by workflow run"
+    secrets:
+      gh-token: ${{ secrets.GITHUB_TOKEN }}
